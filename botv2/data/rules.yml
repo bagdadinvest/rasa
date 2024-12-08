@@ -1,0 +1,7 @@
+version: "2.0"
+
+rules:
+- rule: Respond to greeting using OpenAI API
+  steps:
+  - intent: greet
+  - action: action_talk_to_openai

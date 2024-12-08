@@ -1,0 +1,11 @@
+version: "2.0"
+
+intents:
+  - greet
+
+responses:
+  utter_greet:
+  - text: "Hello! How can I assist you?"
+
+actions:
+  - action_talk_to_openai
